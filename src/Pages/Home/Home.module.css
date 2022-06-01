@@ -1,0 +1,37 @@
+.inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit {
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+
+.submit:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+
+.table {
+    width: 40%;
+    border: 1px solid black;
+}
+
+.table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table td {
+    border: 1px solid black;
+    text-align: center;
+}
